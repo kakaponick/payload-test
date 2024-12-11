@@ -18,6 +18,11 @@ const nextConfig = {
           protocol: url.protocol.replace(':', ''),
         }
       }),
+      {
+        protocol: 'https',
+        hostname: 'utfs.io',
+        pathname: '/f/VwX7zBCDazqu**'
+      },
     ],
   },
   reactStrictMode: true,
